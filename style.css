@@ -227,7 +227,7 @@ footer p{
 }
 
 /*when the screen changes*/
-@media screen and (max-width: 600px)
+@media screen and (max-width: 800px)
 {
     #navigation {margin: 100%}
     nav ul ,nav:active ul

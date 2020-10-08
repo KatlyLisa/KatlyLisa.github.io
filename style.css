@@ -1,0 +1,282 @@
+
+h2
+{
+    font-family: 'Gill Sans';
+    font-size: 200%;
+    font-weight: 700;
+    color: rgb(17, 17, 16);
+    text-align: center;
+}
+.main-container
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+    display: table;
+    background-position: center;
+    background: url(proxy.jpg) no-repeat ;
+}
+.main-container .welcome
+{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.greetings
+{
+    max-width: 600px; 
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Gill Sans';
+}
+.greetings h1
+{
+    font-family: 'Gill Sans';
+    font-family: 300%;
+    font-variant: 700;
+    font-size: 70px;
+    color: rgb(250, 246, 247);
+    text-align: center;
+    padding: 4%;
+}
+.greetings h1:hover{
+    color: rgb(160, 39, 39);
+}
+.welcome
+{
+    background-size: cover;
+    height: 98vh;
+    background: url(proxy.jpg) no-repeat;
+    object-fit: cover;
+}
+nav
+{
+    position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color:  rgb(2, 250, 242);
+}
+nav ul 
+{
+    float: right;
+	margin-right: 20px;
+}
+nav ul li{
+    list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+nav ul li a{
+    font-size: 20px;
+	font-family: 'Franklin Gothic Medium';
+	color: rgb(185, 46, 46);
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+nav ul li a:hover{
+    color: white;
+}
+.navigation
+{
+    width:30px;
+    height:26px;
+    background: url(attract.jpg) center;
+    display: inline-block;
+    margin: 4% 0 0 50px
+}
+.left-wrapper
+{
+    width: 60%;
+    float: left;
+    margin: 4% 0 4% 4%;
+    background: url(design.jpg ) fit;
+}
+.left-wrapper p
+{
+    color: rgba(15, 14, 14, 0.979);
+    font-family: 'Franklin Gothic Medium';
+    line-height: 180%;
+    font-size: 19px;
+    text-align: justify;
+}
+.about
+{
+    display: block;
+}
+.about-image
+{
+    width: 26%;
+    float: left;
+    margin: 8px;
+}
+/*Skills Section starts*/
+.box .skills 
+{
+    width: 500px;
+    margin: 60px auto;
+    color:rgb(11, 12, 12);
+    display: table;
+    color: violet;   
+}
+
+.bar 
+{
+    padding: 0px;
+    text-align: center;
+    background: #0ef0e4;
+    display: block;
+    box-shadow: 10px 10px 10px #7f72a5;
+    height: 0%;
+    border: 1px solid rgba(0, 0,0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+}
+.bar span
+{
+    height: 20px;
+    float: left;
+    transition: 4s;
+}
+.java{
+    width: 60%;
+    text-align: end;
+    background: rgb(212, 98, 235);
+}
+.Csharp{
+    width: 75%;
+    text-align: end;
+    background: rgb(67, 224, 46);
+}
+.css{
+    width: 30%;
+    text-align: end;
+    background: rgb(210, 241, 32);
+}
+.mysql{
+    width: 55%;
+    text-align: end;
+    background: rgb(106, 115, 247);
+}
+.html{
+    width: 30%;
+    text-align: end;
+    background: rgb(255, 11, 11);
+}
+/*skills section ends*/
+.contact p
+{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.contact a{
+    color: rgb(0, 0, 0);
+}
+.box{
+    clear:both;
+    height: 10%;
+    list-style: none;
+}
+.break{
+    display: table;
+}
+.back-space
+{
+    background: url(proxy.jpg) repeat fixed;
+}
+.back-image
+{
+    padding-top: 15%;
+}
+.inner-image
+{
+    padding-top: 17%;
+    background: fixed;
+    display: block;
+}
+.social-media{
+    list-style-type: none;
+    text-align: center;
+}
+.social-media li
+{
+    display: inline;
+}
+.social-media i{
+    font-size: 270%;
+    margin:1% 5% 7% 4%;
+    color: rgb(67, 158, 243);
+}
+.social-media i:hover{
+    color: rgb(160, 39, 39);
+}
+footer
+{
+    color: rgba(158, 6, 6, 0.781);
+    text-align: center;
+}
+footer p{
+    color: rgb(7, 5, 5);
+    text-align: center;
+    background-color:  rgb(9, 235, 235);
+}
+
+/*when the screen changes*/
+@media screen and (max-width: 600px)
+{
+    #navigation {margin: 100%}
+    nav ul ,nav:active ul
+    {
+        padding: 0px 10px;
+        left: 35px;
+        top: 0px;
+        width: 100%;
+    }
+    .welcome
+    {
+        font-size: 120;
+    }
+    .greetings h1
+    {
+        font-size: 180%;
+
+    }
+    p{
+        font-size: 120%;
+    }
+    h2
+    {
+        font-size: 160;
+    }
+    .left-wrapper
+    {
+        width: 96%;
+        margin: 0 0 3% 0;
+        padding:0 2%;
+    }
+    .about-image
+    {
+        width:96%;
+        margin: 0 auto;
+    }
+    img
+    {
+        padding: 10%;
+    }
+    .breaks
+    {
+        display: block;
+    }
+    .back-space
+    {
+        display: none;
+    }
+    .social-media i{
+        font-size: 170%;
+    }
+}

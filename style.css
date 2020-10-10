@@ -141,7 +141,7 @@ nav ul li a:hover{
 {
     height: 20px;
     float: left;
-    transition: 4s;
+    transition: 6s;
 }
 .java{
     width: 60%;
@@ -182,7 +182,7 @@ nav ul li a:hover{
     height: 10%;
     list-style: none;
 }
-.break{
+.next-line{
     display: table;
 }
 .back-space
@@ -267,7 +267,7 @@ footer p{
     {
         padding: 10%;
     }
-    .breaks
+    .next_line
     {
         display: block;
     }
